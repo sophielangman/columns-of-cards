@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
   line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 body {
@@ -10,4 +11,38 @@ body {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+.all {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.one {
+  background-color: #eee;
+}
+
+a {
+  background-color:#333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #e2e2e2;
+}
+
+.four {
+  background-color: #999;
 }
