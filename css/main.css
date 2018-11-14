@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   background-color: #f2f2f2;
 }
 
 body {
+  margin: 0;
+  flex-grow: inherit;
   margin: 0;
 }
 
@@ -15,6 +17,9 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  padding: .5rem;
 }
 
 p {
@@ -23,39 +28,55 @@ p {
 
 .all {
   display: flex;
-  border-left: 1px solid #000;
-  border-left: 1px solid #000;
 }
 
 img {
 width: 100%;
+max-width: 100px;
+display: block;
+margin: 0 auto 1.5rem;
+justify-content: space-around;
+flex-direction: row;
 }
 
 div {
-  padding: 1.5rem;
+  padding: .75rem;
+  margin: 0;
 }
 
 .one {
   background-color: #eee;
+  border-left: 1px solid #000;
 }
 
 .two {
   background-color: #ccc;
+  border-left: 1px solid #000;
 }
 
 .three {
   background-color: #e2e2e2;
+  border-left: 1px solid #000;
 }
 
 .four {
   background-color: #999;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
 }
 
 a {
-  background-color:#333;
+  background-color: #333;
   color: #fff;
+  font-size: .875rem;
   text-decoration: none;
-  border-radius: 3px;
-  display: block;
-  padding: .5rem;
+  border-radius: 8px;
+  border-width: 3px;
+  display: flex;
+  padding: .5em;
+  margin-top: 1.5rem;
+}
+
+a:hover {
+  background-color: #000;
 }
